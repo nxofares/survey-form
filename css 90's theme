@@ -1,0 +1,93 @@
+/* Body and Header */
+body {
+  background-color: #e4d4bb;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+
+#title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #bf4c52;
+  text-shadow: 2px 2px 0px #c9ac95;
+}
+
+/* Form */
+#survey-form {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #f0e6d2;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #c9ac95;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  color: #bf4c52;
+}
+
+/* Text inputs */
+input[type="text"], input[type="email"], input[type="number"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f8efe0;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, textarea:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+/* Select */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f8efe0;
+}
+
+select:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+/* Radio and Checkboxes */
+fieldset {
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  color: #bf4c52;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Button */
+button[type="submit"] {
+  background-color: #bf4c52;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #c95e62;
+}
